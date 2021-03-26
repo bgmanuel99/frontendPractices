@@ -1,0 +1,56 @@
+.textContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1340px;
+    left: 520px;
+    top: 140px;
+    padding-right: 40px;
+    color: goldenrod;
+}
+
+.firstWords {
+    font-size: 100px;
+    text-align: center;
+}
+
+.objectContainer {
+    position: relative;
+    width: 1000px;
+    height: 150px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.objName {
+    color: rebeccapurple;
+    font-size: 40px;
+}
+
+.objText {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.filmContainer {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.opening {
+    font-size: 30px;
+    color: yellow;
+    margin-top: 15px;
+}
+
+.openingText {
+    font-size: 20px;
+    margin-top: 10px;
+}

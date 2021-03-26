@@ -1,0 +1,40 @@
+.container {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    background-image: url("../../images/ElectionMenuBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    font-size: 50px;
+    width: 250px;
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    color: goldenrod;
+    z-index: 3;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 0 0 10px goldenrod;
+    background: radial-gradient(circle, rgba(48,207,208,0.4) 10%, rgba(51,8,103,0.4) 90%);
+}
+
+.options:hover {
+    cursor: pointer;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px #FF0000;
+    box-shadow: 0 0 15px goldenrod;
+    background: radial-gradient(circle, rgba(48,207,208,1) 10%, rgba(51,8,103,1) 90%);
+}
+
+.people {top: 150px;}
+.planets {top: 400px}
+.films {top: 650px}
