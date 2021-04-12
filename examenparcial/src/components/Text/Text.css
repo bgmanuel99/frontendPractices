@@ -1,0 +1,45 @@
+.textContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    left: 0;
+    top: 150px;
+    width: 100vw;
+    height: fit-content;
+}
+
+.firstWords {
+    font-size: 70px;
+}
+
+.objectContainer {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.photo {
+    width: 100px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.objTitle, .objAuthor, .year {
+    font-size: 30px;
+}
+
+.year {
+    color: blueviolet;
+}
+
+.amazon {
+    font-size: 20px;
+}
