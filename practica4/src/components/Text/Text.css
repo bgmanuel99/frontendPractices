@@ -1,0 +1,72 @@
+.clipLoader {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+}
+
+.textContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #c79081;
+}
+
+.columnTextContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #c79081;
+    align-items: center;
+}
+
+.bookContainer {
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    background-image: url("../../image/libro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coverAndName {
+    width: 110px;
+    margin-left: 50px;
+    float: left;
+    word-wrap: break-word;
+}
+
+.cover {
+    margin-top: 60px;
+    width: 90px;
+    height: 120px;
+}
+
+.title {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.information {
+    width: 110px;
+    margin-top: 55px;
+    margin-left: 200px;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+.year {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
